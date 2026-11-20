@@ -1,3 +1,11 @@
+// ------------------------------------------------------------
+//  Author: Miguel A.Lorenzo
+//  Date: 20/11/2026
+//  Subject: Smart Sensors (Sensores Inteligentes)
+//  Master: MSc in Electronic Engineering
+//  University: University of Zaragoza EINA/UNIZAR
+// ------------------------------------------------------------
+
 /* Includes ---------------------------------------------------------------- */
 #include <clasificacion_imu_inferencing.h>
 #include <Arduino_LSM9DS1.h>
