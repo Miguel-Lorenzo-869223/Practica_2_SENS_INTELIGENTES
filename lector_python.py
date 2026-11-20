@@ -9,9 +9,9 @@ from datetime import datetime
 # CAMBIAR POR EL PUERTO DE TU ARDUINO
 PUERTO = "COM5"
 BAUDIOS = 115200
-DURACION = 10  # segundos
+DURACION = 3  # segundos
 
-CARPETA = Path("datos_imu")
+CARPETA = Path("datos_imu_3")
 CARPETA.mkdir(exist_ok=True)
 
 CLASES = {
