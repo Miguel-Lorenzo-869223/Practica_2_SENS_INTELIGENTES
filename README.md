@@ -9,7 +9,7 @@
 
 * **Institution:** School of Engineering and Architecture (**EINA**) — **University of Zaragoza (UNIZAR)**
 * **Program:** Master's Degree in Electronic Engineering (*Máster Universitario en Ingeniería Electrónica*)
-* **Course:** Intelligent Sensors (*Sensores Inteligentes*)
+* **Course:** Smart Sensors (*Sensores Inteligentes*)
 
 ---
 
