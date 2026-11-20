@@ -43,7 +43,7 @@ Using 6-axis Inertial Measurement Unit (**IMU**) sensor fusion (3-axis accelerom
 The coordinate system and rotational axes (**Roll**, **Pitch**, and **Yaw**) follow the physical reference frame of the board shown below:
 
 <p align="center">
-  <img src="images/axes_reference.png" alt="Arduino Nano 33 BLE Sense Roll, Pitch, and Yaw Axes" width="650"/>
+  <img src="./images/axes_reference.png" alt="Arduino Nano 33 BLE Sense Roll, Pitch, and Yaw Axes" width="650"/>
 </p>
 
 ---
