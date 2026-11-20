@@ -111,7 +111,7 @@ The trained model achieved **100% accuracy** and a **1.00 F1-score** across all 
 The Arduino sketch (`clasificador_IMU/clasificador_IMU.ino`) adapts the Edge Impulse C++ SDK inference loop for real-time 6-axis sensor fusion and PWM LED control:
 
 * **Sensor Fusion Interleaving:** Reads `IMU.readAcceleration()` (clamped to `±2.0 G` and scaled by `9.80665f` to $\text{m/s}^2$) and `IMU.readGyroscope()` ($\text{deg/s}$) at `100 Hz`, packing them in the exact `[accX, accY, accZ, gyrX, gyrY, gyrZ]` order expected by `EI_CLASSIFIER_SENSOR_FUSION`.
-* **Confidence Thresholding:** Applies a `CONFIDENCE_THRESHOLD` of `0.60f` (60%). If the highest predicted probability falls below this threshold during rapid transitions, the LED turns off cleanly to prevent flickering.
+* **Confidence Thresholding:** Applies a `CONFIDENCE_THRESHOLD` of `0.90f` (90%). If the highest predicted probability falls below this threshold during rapid transitions, the LED turns off cleanly to prevent flickering.
 * **Non-Blocking Serial Startup:** `while (!Serial);` is disabled so the board operates autonomously when powered via external USB/battery without requiring an active Serial Monitor connection.
 * **Fast Inference Cadence:** Uses a `200 ms` delay between sampling windows for responsive visual feedback.
 
